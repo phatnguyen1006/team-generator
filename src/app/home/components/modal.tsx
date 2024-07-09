@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Modal, FloatButton, Flex } from 'antd';
 import { SettingOutlined } from '@ant-design/icons';
 import { Switch } from 'antd';
@@ -14,8 +14,7 @@ const onAlgoSwitchChange = (checked: boolean) => {
     settings.randomAlgo = checked;
 };
 
-type Props = {}
-export const SettingsModal = (props: Props) => {
+export const SettingsModal = () => {
     const [open, setOpen] = useState(false);
 
     const showModal = () => {

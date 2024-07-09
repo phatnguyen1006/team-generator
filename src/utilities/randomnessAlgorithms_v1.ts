@@ -1,4 +1,4 @@
-import { Player, Team, TeamName } from '../../types';
+import { Player, Team, TeamName } from '../types';
 
 function splitArrayByConsecutiveValues(arr: Player[]): Player[][] {
     const result: Player[][] = [];
